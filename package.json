@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
     "jshint": "^2.9.5",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
@@ -18,8 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "aws":
-      "yarn run build && s3cmd sync build/* s3://pjdux.com && echo '🚀  Deployed!'"
+    "aws": "yarn run build && s3cmd sync build/* s3://pjdux.com && echo '🚀  Deployed!'"
   },
   "devDependencies": {
     "eslint-config-prettier": "^2.9.0",

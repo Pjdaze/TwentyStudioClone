@@ -6,13 +6,6 @@ import Routes from './Routes';
 
 const MainLayout = styled.div`
   height: 100vh;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  h1 {
-    text-align: center;
-  }
 `;
 
 class App extends React.Component {
