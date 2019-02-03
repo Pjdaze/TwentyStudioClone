@@ -7,6 +7,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 /************************
@@ -27,6 +28,10 @@ html {
   font-size: 16px;
 }
 
+.header {
+  border: 1px solid saddlebrown;
+  height: 100px;
+}
 @media screen and (min-width: 320px) {
   html {
     font-size: calc(16px + 6 * ((100vw - 320px) / 680));
