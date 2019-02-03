@@ -8,14 +8,16 @@ class Home extends React.Component {
   render() {
     return (
       <HomeWrapper>
-        <Header />
-        {/*     <div className="logo">
-          <img src={Logo} />
-    </div> */}
-        <div className="txt">
-          <span className="editor-logo">
-            TWENTY <span className="studio">STUDIO</span>
-          </span>
+        <div className="flex-center">
+          <Header />
+          <div className="logo">
+            <img src={Logo} />
+          </div>
+          <div className="txt">
+            <span className="editor-logo">
+              TWENTY <span className="studio">STUDIO</span>
+            </span>
+          </div>
         </div>
       </HomeWrapper>
     );

@@ -94,7 +94,7 @@ const Nav1 = styled.nav`
       margin-left: 20px;
     }
 
-    &:nth-child(4) {
+    &:nth-child(5) {
       display: none;
     }
   }
@@ -143,7 +143,7 @@ const Nav1 = styled.nav`
         zoom: 1;
       }
 
-      &:nth-child(4) {
+      &:nth-child(5) {
         display: block;
         font-size: 12px;
         zoom: 1;
@@ -191,6 +191,12 @@ export default class Nav extends React.Component {
                 <img src={Logo} />
               </NavLink>
             </div>
+          </li>
+          <li>
+            {' '}
+            <NavLink activeClassName="activex" to="/Contact">
+              <p>Contact</p>
+            </NavLink>
           </li>
           <li>
             <NavLink activeClassName="activex" to="/About">

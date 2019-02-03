@@ -1,10 +1,13 @@
 import React from 'react';
 import Header from '../Header';
+import FormComponent from '../FormComponent';
 
 const Contact = props => {
   return (
-    <div>
+    <div className="flex-center">
       <Header />
+
+      <FormComponent />
     </div>
   );
 };

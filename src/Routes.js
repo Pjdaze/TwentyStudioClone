@@ -6,6 +6,7 @@ import ScrollToTopRoute from './History';
 import Home from './components/pages/Home';
 import Contact from './components/pages/Contact';
 import About from './components/pages/About';
+import Projects from './components/pages/Projects';
 
 const Routes = props => (
   <Switch>
@@ -13,6 +14,7 @@ const Routes = props => (
     <ScrollToTopRoute path="/Home" component={Home} />
     <ScrollToTopRoute path="/About" component={About} />
     <ScrollToTopRoute path="/Contact" component={Contact} />
+    <ScrollToTopRoute path="/Projects" component={Projects} />
   </Switch>
 );
 
